@@ -2,7 +2,7 @@ import turtle
 screen = turtle.Screen()
 draw = turtle.Turtle()
 screen.bgcolor("black")
-draw.pencolor("dark green")
+draw.pencolor("red")
 draw.pensize(3)
 draw1 = 0
 draw2 = 0
