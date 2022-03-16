@@ -1,24 +1,21 @@
 import turtle
 screen = turtle.Screen()
-drawer = turtle.Turtle()
+draw = turtle.Turtle()
 screen.bgcolor("black")
-drawer.pencolor("dark green")
-drawer.pensize(3)
-drawer1 = 0
-drawer2 = 0
-drawer.speed(0)
-drawer.goto(0, 200)
-drawer.pendown()
+draw.pencolor("dark green")
+draw.pensize(3)
+draw1 = 0
+draw2 = 0
+draw.speed(100)
+draw.goto(1, 200)
+draw.pendown()
 
 while True:
 
-    drawer.forward(drawer1)
-    drawer.right(drawer2)
-    drawer1 += 3
-    drawer2 += 1
+    draw.forward(draw1)
+    draw.right(draw2)
+    draw1 += 3
+    draw2 += 1
 
-    if drawer2 == 210:
+    if draw2 == 210:
         break
-
-drawer.ht()
-screen.mainloop()
